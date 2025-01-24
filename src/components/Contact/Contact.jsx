@@ -7,7 +7,7 @@ import location from '../../assets/location-pin-svgrepo-com.svg'
 
 const Contact = () => {
   return (
-    <div className='contact'>
+    <div id='contact' className='contact'>
       <div className="contact-title">
         <h1>Get in touch</h1>
       </div>

@@ -77,3 +77,18 @@ font-size: 18px;
     transform: scale(1.1);
     transition: 0.5s;
 }
+
+@media(max-width:1500px){
+    .footer{
+        margin: 50px 70px;
+    }
+    .footer-top{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .footer-bottom{
+        /* display: flex; */
+        flex-direction: column-reverse;
+        margin-bottom: 50px;
+    }
+}
