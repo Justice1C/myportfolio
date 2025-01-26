@@ -78,7 +78,7 @@ font-size: 18px;
     transition: 0.5s;
 }
 
-@media(max-width:1500px){
+@media(max-width:800px){
     .footer{
         margin: 50px 70px;
     }
@@ -90,5 +90,9 @@ font-size: 18px;
         /* display: flex; */
         flex-direction: column-reverse;
         margin-bottom: 50px;
+    }
+    .footer-top-right{
+        flex-direction: column;
+        gap: 20px;
     }
 }
